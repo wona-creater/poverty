@@ -205,10 +205,7 @@
     <div id="root" class="min-h-100vh flex grow bg-slate-50 dark:bg-navy-900" x-cloak>
         <div class="fixed top-0 hidden p-6 lg:block lg:px-12">
             <a href="#" class="flex items-center space-x-2">
-                <img class="size-12" src="/backend/images/app-logo.svg" alt="logo" />
-                <p class="text-xl font-semibold uppercase text-slate-700 dark:text-navy-100">
-                    lineone
-                </p>
+                <img src="/backend/images/app-logo.png" height="70" width="120" alt="150x50" />
             </a>
         </div>
         <div class="hidden w-full place-items-center lg:grid">
@@ -323,7 +320,7 @@
                         <p class="line-clamp-1">
                             <span>Already have an account? </span>
                             <a class="text-primary transition-colors hover:text-primary-focus dark:text-accent-light dark:hover:text-accent"
-                                href="{{ route ('login')}}">Sign In</a>
+                                href="{{ route('login') }}">Sign In</a>
                         </p>
                     </div>
                 </form>

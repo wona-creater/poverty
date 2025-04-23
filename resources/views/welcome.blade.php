@@ -16,7 +16,7 @@
                             <h3>Grow Wealth with Vallfield</h3>
                             <h1>Secure. Simple. Vallfield.</h1>
                             <p>
-                                Trade, or stake  with confidence. <br />
+                                Trade, or stake with confidence. <br />
                                 Join thousands thriving with our platform.
                             </p>
                             <a href="{{ route('register') }}" class="default-btn">Start Investing</a>
@@ -96,7 +96,7 @@
                     <div class="col-lg-6 sm-padding wow fadeInLeft" data-wow-delay="200ms">
                         <div class="content-info">
                             <h2>
-                                Grow Your  <br />
+                                Grow Your <br />
                                 Wealth Effortlessly
                             </h2>
                             <p>
@@ -122,7 +122,7 @@
                     <div class="col-lg-6 sm-padding wow fadeRight" data-wow-delay="200ms">
                         <div class="content-info">
                             <h2>
-                                Secure  <br />
+                                Secure <br />
                                 Investing, Always
                             </h2>
                             <p>
@@ -220,7 +220,8 @@
                             <div class="slider slider-for">
                                 <div class="testi-content">
                                     <p>
-                                        "Vallfield’s platform made trading and staking simple and secure. I’ve doubled my
+                                        "Vallfield’s platform made trading and staking simple and secure. I’ve doubled
+                                        my
                                         portfolio in months!"
                                     </p>
                                     <div class="author-info">
@@ -238,7 +239,8 @@
                                 </div>
                                 <div class="testi-content">
                                     <p>
-                                        "The security features give me peace of mind. Vallfield is my go-to for staking."
+                                        "The security features give me peace of mind. Vallfield is my go-to for
+                                        staking."
                                     </p>
                                     <div class="author-info">
                                         <h3>Sofia Mendes <span>Entrepreneur</span></h3>
@@ -379,8 +381,8 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-6 padding-15">
                         <div class="widget-content">
-                            <a class="brand" href="#"><img src="/frontend/img/logo-dark.png"
-                                    alt="Vallfield Logo" /></a>
+                            <a class="brand" href="#"><img src="/backend/images/app-logo.png" height="70"
+                                    width="120" alt="150x50" /></a>
                             <p>
                                 Vallfield empowers investors with secure, simple trading and staking.
                             </p>

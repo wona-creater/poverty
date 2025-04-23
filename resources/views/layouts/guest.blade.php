@@ -43,7 +43,8 @@
     <header id="header" class="header-section">
         <div class="container">
             <nav class="navbar">
-                <a href="#" class="navbar-brand"><img src="/frontend/img/logo-dark.png" alt="Saasdesk" /></a>
+                <a href="#" class="navbar-brand"><img src="/backend/images/app-logo.png" height="70"
+                        width="120" alt="150x50" /></a>
                 <div class="d-flex menu-wrap">
                     <div id="navmenu" class="mainmenu">
                         <ul class="nav">
@@ -63,7 +64,7 @@
                         </ul>
                     </div>
                     <div class="header-btn">
-                        <a href="{{route ('register')}}" class="signup-btn">Signup Now</a>
+                        <a href="{{ route('register') }}" class="signup-btn">Signup Now</a>
                     </div>
                 </div>
             </nav>
