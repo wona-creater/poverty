@@ -1,4 +1,4 @@
-<x-app-layout>
+{{-- <x-app-layout>
     <main class="main-content w-full px-[var(--margin-x)] pb-8">
         <div class="flex items-center space-x-4 py-5 lg:py-6">
             <h2 class="text-xl font-medium text-slate-800 dark:text-navy-50 lg:text-2xl">
@@ -166,46 +166,9 @@
 
     </main>
 
-    
-
     @push('scripts')
-        @if (session('success'))
-            <script>
-                document.addEventListener('DOMContentLoaded', () => {
-                    Swal.fire({
-                        icon: 'success',
-                        text: "{{ addslashes(session('success')) }}",
-                        timer: 3000,
-                        showConfirmButton: false,
-                        background: '#f0fdf4',
-                        iconColor: '#10B981',
-                        customClass: {
-                            popup: 'rounded-xl'
-                        }
-                    });
-                });
-            </script>
-        @endif
-        @if (session('error'))
-            <script>
-                document.addEventListener('DOMContentLoaded', () => {
-                    Swal.fire({
-                        icon: 'error',
-                        text: "{{ addslashes(session('error')) }}",
-                        timer: 3000,
-                        showConfirmButton: false,
-                        background: '#fef2f2',
-                        iconColor: '#EF4444',
-                        customClass: {
-                            popup: 'rounded-xl'
-                        }
-                    });
-                });
-            </script>
-        @endif
+        <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
     @endpush
 
 
-</x-app-layout>
-
-{{--  --}}
+</x-app-layout> --}}

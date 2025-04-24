@@ -19,7 +19,7 @@
                                 Trade, or stake with confidence. <br />
                                 Join thousands thriving with our platform.
                             </p>
-                            <a href="{{ route('register') }}" class="default-btn">Start Investing</a>
+                            <a href="{{ route('register') }}" class="default-btn">Start Staking</a>
                         </div>
                     </div>
                     <div class="col-lg-6 sm-padding">

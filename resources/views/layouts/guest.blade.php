@@ -7,7 +7,7 @@
     <meta name="description" content="Multi-purpose Saas landing page" />
     <meta name="author" content="ThemeEaster" />
 
-    <title>SaasDesk | Saas Startup HTML Template</title>
+    <title>Vallfield | Best Staking Platform</title>
 
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
 
