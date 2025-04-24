@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Multi-purpose Saas landing page" />
+    <meta name="description" content="Vallfield | Best Staking Platform" />
     <meta name="author" content="ThemeEaster" />
 
     <title>Vallfield | Best Staking Platform</title>
