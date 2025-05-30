@@ -64,6 +64,11 @@ Route::middleware('auth', 'verified')->group(function () {
     Route::post('/dashboard/loanstore', [userController::class, 'loanstore'])->name('loan.store');
 
 
+    Route::get('/dashboard/setup', [userController::class, 'setup'])->name('copy.setup');
+    Route::get('/dashboard/copytrading', [userController::class, 'copytrading'])->name('copy.trading');
+    Route::get('/dashboard/performance', [userController::class, 'performance'])->name('copy.perform');
+
+
     // admin routes
 
     Route::get('/admin/dashboard/admin', [adminController::class, 'dashboard'])->name('admin.board');

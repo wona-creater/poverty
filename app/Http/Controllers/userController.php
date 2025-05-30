@@ -455,4 +455,27 @@ class userController extends Controller
 
         return redirect()->route('loan')->with('success', 'Loan plan selected successfully!');
     }
+
+
+
+    public function copytrading()
+    {
+
+        return view('user.copytrading.home');
+    }
+
+
+
+    public function setup()
+    {
+
+        return view('user.copytrading.setup');
+    }
+
+
+    public function performance()
+    {
+
+        return view('user.copytrading.performance');
+    }
 }
